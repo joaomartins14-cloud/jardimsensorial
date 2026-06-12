@@ -1,10 +1,5 @@
 {
   "buildCommand": "npx bun install && npx bun run build",
   "outputDirectory": ".output/public",
-  "framework": "other",
-  "functions": {
-    ".output/server/**": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "framework": null
 }
