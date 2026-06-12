@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx bun install && npx bun run build",
-  "outputDirectory": ".output/public",
+  "buildCommand": "npx bun install && NITRO_PRESET=vercel npx bun run build",
+  "outputDirectory": ".vercel/output",
   "framework": null
 }
