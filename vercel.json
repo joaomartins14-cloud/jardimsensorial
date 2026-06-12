@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx bun run build",
+  "buildCommand": "npx bun run build && find . -name '*.html' -not -path '*/node_modules/*'",
   "outputDirectory": "dist",
   "framework": null
 }
